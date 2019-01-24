@@ -1,2 +1,0 @@
-# AmazonProject
-QA professionals
