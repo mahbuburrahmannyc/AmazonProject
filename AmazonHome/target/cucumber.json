@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Positive",
+        "description": "",
+        "id": "login;positive",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18067311253,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User on Amazon Home page",
+            "match": {
+              "location": "LogInStepDef.user_on_Amazon_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1522896319,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click sign in",
+            "match": {
+              "location": "LogInStepDef.user_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266190774,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter UserName",
+            "match": {
+              "location": "LogInStepDef.user_enter_UserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218888585,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter Password",
+            "match": {
+              "location": "LogInStepDef.user_enter_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2833258067,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Click signIn Button",
+            "match": {
+              "location": "LogInStepDef.user_Click_signIn_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616210630,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Successfully LogIn",
+            "match": {
+              "location": "LogInStepDef.user_Successfully_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn",
+    "description": "\r\nDescription:Amazon LogIn",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/main/resources/amazon.feature"
+  }
+]
